@@ -61,47 +61,47 @@ export const routePath = {
     '/tema5': {
         view: tema5,
         logic: () => import('../logic/tema5.js'),
-        title: 'Tema 4 | Física Radiologica'
+        title: 'Tema 5 | Física Radiologica'
     },
     '/tema6': {
         view: tema6,
         logic: () => import('../logic/tema6.js'),
-        title: 'Tema 4 | Física Radiologica'
+        title: 'Tema 6 | Física Radiologica'
     },
     '/tema7': {
         view: tema7,
         logic: () => import('../logic/tema7.js'),
-        title: 'Tema 4 | Física Radiologica'
+        title: 'Tema 7 | Física Radiologica'
     },
     '/tema8': {
         view: tema8,
         logic: () => import('../logic/tema8.js'),
-        title: 'Tema 4 | Física Radiologica'
+        title: 'Tema 8 | Física Radiologica'
     },
     '/tema9': {
         view: tema9,
         logic: () => import('../logic/tema9.js'),
-        title: 'Tema 4 | Física Radiologica'
+        title: 'Tema 9 | Física Radiologica'
     },
     '/tema10': {
         view: tema10,
         logic: () => import('../logic/tema10.js'),
-        title: 'Tema 4 | Física Radiologica'
+        title: 'Tema 10 | Física Radiologica'
     },
     '/tema11': {
         view: tema11,
         logic: () => import('../logic/tema11.js'),
-        title: 'Tema 4 | Física Radiologica'
+        title: 'Tema 11 | Física Radiologica'
     },
     '/tema12': {
         view: tema12,
         logic: () => import('../logic/tema12.js'),
-        title: 'Tema 4 | Física Radiologica'
+        title: 'Tema 12 | Física Radiologica'
     },
     '/tema13': {
         view: tema13,
         logic: () => import('../logic/tema13.js'),
-        title: 'Tema 4 | Física Radiologica'
+        title: 'Tema 13 | Física Radiologica'
     },
     '*': {
         view: notFound,
