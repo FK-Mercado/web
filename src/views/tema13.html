@@ -1,0 +1,77 @@
+<div id="temaN°">
+    <div class="subtemas">
+        <div class="tema-content">
+            <h2>Calculo de modificación a factores de exposición</h2>
+            <p> El cálculo de modificación de los factores de exposición en radiología consiste en ajustar los
+                parámetros
+                técnicos del equipo de rayos X para obtener imágenes diagnósticas de calidad óptima, minimizando la
+                dosis de radiación al paciente. <br>
+                Estos factores controlan la cantidad, energía y tiempo de exposición de la radiación que llega al
+                receptor de imagen.
+            </p>
+        </div>
+        <div>
+            <video src="/fisica-web3/public/calculos.mp4" class="tema-video" controls></video>
+        </div>
+    </div>
+    <div class="subtemas2">
+        <div class="tema-content">
+            <h2>Factores primarios de exposición</h2>
+            <p> <strong>Kilovoltaje (kV):</strong> Determina la energía o capacidad de penetración del haz de rayos X.
+                <br><br>
+                A mayor <strong>kV</strong>, mayor poder de penetración y menor el contraste. Un incremento del
+                <strong>15%</strong> en kV aproximadamente duplica la densidad de la imagen, por lo que puede
+                compensarse reduciendo a la mitad el <strong>miliamperaje-segundo (mAs).</strong>
+                <br><br>
+                <strong>Miliamperaje (mA):</strong> Controla la cantidad de radiación producida por segundo. A mayor mA,
+                mayor densidad (oscuridad) en la imagen. Si se aumenta el mA, debe reducirse proporcionalmente el tiempo
+                de exposición para mantener la misma dosis total.
+                <br><br>
+                <strong>Tiempo de exposición (s):</strong> Representa la duración de la emisión de rayos X. Influye
+                directamente en la cantidad total de radiación <strong>(mAs = mA x s).</strong> En pacientes pediátricos
+                o inquietos, se recomienda reducir el tiempo de exposición para evitar movimiento y desenfoque.
+            </p>
+            <h2>Factores secundarios de exposición</h2>
+            <p> <strong>Distancia foco-película (DFP) o foco-receptor:</strong> Afecta la intensidad del haz según la
+                <strong>Ley del Cuadrado Inverso:</strong>
+                La intensidad es inversamente proporcional al cuadrado de la distancia. <br>
+                Es decir, si se duplica la
+                distancia, la intensidad disminuye a la cuarta parte.
+                Para compensar un aumento de distancia, debe incrementarse el mAs proporcionalmente. <br><br>
+                <strong>Espesor del paciente:</strong> Cuanto mayor sea el espesor corporal, mayor absorción de rayos X
+                y por tanto se requiere un aumento de kV o mAs.
+                Es recomendable ajustar principalmente el kV para tejidos más densos y el mAs para mejorar la densidad
+                sin alterar el contraste. <br><br>
+                <strong>Uso de rejillas (grids):</strong> Las rejillas eliminan radiación dispersa, mejorando el
+                contraste, pero requieren aumentar la exposición. <br>
+                El factor de rejilla indica cuánto debe multiplicarse el mAs al usarla (por ejemplo, 5:1 → multiplicar
+                por 2; 12:1 → multiplicar por 4 o más).
+            </p>
+        </div>
+    </div>
+    <div class="subtemas">
+        <div class="tema-content">
+            <h2>Compensaciones y fórmulas prácticas</h2>
+            <p> <strong>Relación kV-mAs:</strong> Incrementar el kV en 15% ≈ duplicar la densidad → reducir el mAs a la
+                mitad y a su vez el disminuir el kV en 15% ≈ reducir la densidad a la mitad → duplicar el mAs.
+                <br><br>
+                <strong>Ley del Cuadrado Inverso:</strong><br>
+                <img src="/public/formula1.jpg" alt=""> <br>
+                <strong>donde:</strong><br>
+                I = intensidad de radiación <br>
+                D = distancia foco-película <br><br>
+                <strong>Ecuación de mantenimiento de exposición:</strong><br>
+                <img src="/public/formula 2.jpg" alt=""><br>
+                <strong>donde:</strong><br>
+                mAs = tiempo de exposición <br>
+                D = distancia foco-película
+            </p>
+        </div>
+    </div>
+    <div class="subtemas">
+        <div class="tema-content">
+            <h2>Ventajas y desventajas del ajuste manual vs. automático</h2>
+            <img src="/fisica-web3/public/tabla calc. mod. fac.jpg" alt="">
+        </div>
+    </div>
+</div>
